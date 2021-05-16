@@ -15,10 +15,10 @@ $result_signal_date = json_decode(file_get_contents('https://www.stockguru.in/ap
             <div class="col-lg-12">
                 <div class="breadcrumb-content">
                     <div class="breadcrumb-inner">
-                        <h2 class="breadcrumb__title">Multibagger Penny Stocks.</h2>
+                        <h2 class="breadcrumb__title">Penny Stocks.</h2>
                         <ul class="breadcrumb__list">
                             <li class="active__list-item"><a href="<?php echo base_url() ?>members">Members</a></li>
-                            <li>Multibagger Penny Stocks</li>
+                            <li>Penny Stocks</li>
                         </ul>
                     </div><!-- end breadcrumb-inner -->
                     <div class="text-outline">Penny Stocks</div>
@@ -37,7 +37,7 @@ $result_signal_date = json_decode(file_get_contents('https://www.stockguru.in/ap
         <div class="col-lg-12 col-md-12 col-sm-12">
             <div style="margin-top:50px"></div>
             
-            <h3>Multibagger Penny Stocks</h3>
+            <h3>Penny Stocks</h3>
             <p>Trade Signals For : <b><?php echo $result_signal_date->signal_date ?></b></p>
             <div class="row">
                 <?php
